@@ -1,0 +1,30 @@
+.Wochentag {
+    background-color: #F1EFEF;
+    border-radius: 20px;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+.AddButton {
+    background-color: #D9D9D9;
+    width: 90%;position: relative;
+    left: 5%;
+    border-radius: 20px;
+    border: none;
+}
+.Activity {
+    width: 80%;
+    position: relative;
+    left: 2%;
+    border-radius: 15px;
+}
+.Duration {
+    width: 8%;
+    position: relative;
+    left: 3%;
+    border-radius: 15px;
+}
+.pWeekday {
+    color: black;
+    position: relative; 
+    left: 4%;
+}

@@ -5,7 +5,27 @@
     <title>Tab Name</title>
 </head>
 <body>
-    <h3>Übersicht</h3>
+
+    <div class="menu-button" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div class="sidebar", id="sidebar"> 
+        <ul>
+            <li>
+                <a href="#">Menu Item 1</a>
+            </li>
+            <li>
+                <a href="#">Menu Item 2</a>
+            </li>
+        </ul>
+    </div>
+
+    <br>
+    <br>
+    <h3>Uebersicht</h3>
 
     <div>
         <p>Abteilung</p>
@@ -20,6 +40,7 @@
     <br>
     <l>
         <div class="Wochentag">
+            <button>></button>
             <p class="pWeekday">Montag</p>
             <textarea class="Activity"></textarea>
             <textarea class="Duration"></textarea>
@@ -37,13 +58,14 @@
         <br>
         <div class="Wochentag">
             <p class="pWeekday">Mittwoch</p>
-            <textarea class="Activity"></textarea>
-            <textarea class="Duration"></textarea>
+            <textarea class="Activity", id="item"></textarea>
+            <textarea class="Duration", id="item"></textarea>
             <br>
-            <button class="AddButton">+</button>
+            <button class="AddButton", id="item">+</button>
 
     </l>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

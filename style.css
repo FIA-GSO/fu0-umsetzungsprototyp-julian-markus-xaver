@@ -16,17 +16,22 @@
 }
 .AddButton {
     background-color: #D9D9D9;
-    width: 90%;position: relative;
-    left: 5%;
+    width: 90%;
     border-radius: 20px;
-    margin-top: 1%;
+    margin-left: inherit;
 }
+
+.ActivityLabel {
+    width: 100%;
+    margin: auto;
+}
+
 .Activity {
     width: 80%;
     position: relative;
-    left: 2%;
     border-radius: 15px;
     margin: 1%;
+    left: 7px;
 }
 .Duration {
     width: 8%;

@@ -40,7 +40,7 @@ class ActivityHandler {
     }
 
     static removeActivity(activityElement) {
-
+        
         if (this.activityDictionary.has(activityElement.id)) {
             activityElement.remove()
             console.log(this.activityDictionary.size)
@@ -58,8 +58,7 @@ class ActivityElement {
     }
 
     appendActivity(dayId, divId, btnId) {
-
-        document.getElementById(dayId).insertAdjacentHTML("afterend",
+        document.getElementById(dayId).insertAdjacentHTML("beforeend",
             "           <div id='temp'> \n" +
             "                <label class=\"ActivityLabel\">\n" +
             "                    <input class=\"Activity item\" id=\"TuesdayActivity1\" name=\"MondayActivity1\">\n" +

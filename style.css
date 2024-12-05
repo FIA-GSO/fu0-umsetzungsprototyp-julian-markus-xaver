@@ -33,12 +33,26 @@
     margin: 1%;
     left: 7px;
 }
+
 .Duration {
     width: 8%;
     position: relative;
     left: 3%;
     border-radius: 15px;
+    text-align: center;
+    
 }
+
+.DisplayDiv {
+    margin-left: 5%; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .pWeekday {
     color: black;
     position: relative; 

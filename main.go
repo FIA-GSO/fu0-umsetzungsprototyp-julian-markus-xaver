@@ -43,7 +43,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 		Submission.SaturdayActivity1 = r.FormValue("SaturdayActivity1")
 		Submission.SaturdayDuration1 = r.FormValue("SaturdayDuration1")
 
-		fmt.Print(Submission)
+		fmt.Println(Submission)
 	} else {
 		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
 	}

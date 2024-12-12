@@ -16,7 +16,7 @@
     <div class="line"></div>
 </div>
 
-<div class="sidebar" , id="sidebar">
+<div class="sidebar" id="sidebar">
     <ul>
         <li>
             <a href="#">Menu Item 1</a>
@@ -61,28 +61,18 @@
                 class="btn btn-dark btn-sm toggleButton">v
         </button>
         <label class="pWeekday">Montag</label><br><br>
-        <div style="display: initial" id="mondayHide" class="DisplayDiv">
+        <div style="display: initial;" id="mondayHide" class="DisplayDiv">
 
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-11">
-                        Tätigkeit
-                    </div>
-                    <div class="col-1">
-                        Dauer
-                    </div>
-                </div>
-            </div>
             <div id="activityContainerMonday">
                 <div>
-                    <label class="ActivityLabel">
+                    <div class="col-container">
+                        <div class="col-dayHeader">Tätigkeit</div>
+                        <div class="col-dayHeader">Dauer</div>
+                    </div>
+                    <label class="ActivityLabel col-container">
                         <input class="Activity item" id="MondayActivity1" name="MondayActivity1">
                         <input type="number" min="0" max="10" step="0.1" class="Duration item" id="MondayDuration1"
                                name="MondayDuration1">
-                        <button type="button" class="btn btn-light btn-sm" onclick=""
-                                style="margin-left: 4%; margin-bottom: 0.5%;">
-                            X
-                        </button>
                     </label>
                 </div>
             </div>
@@ -96,26 +86,16 @@
         <label class="pWeekday">Dienstag</label><br><br>
         <div style="display: initial" id="tuesdayHide" class="DisplayDiv">
 
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-11">
-                        Tätigkeit
-                    </div>
-                    <div class="col-1">
-                        Dauer
-                    </div>
-                </div>
+            <div class="col-container">
+                <div class="col-dayHeader">Tätigkeit</div>
+                <div class="col-dayHeader">Dauer</div>
             </div>
             <div id="activityContainerTuesday">
                 <div id="activity0">
-                    <label class="ActivityLabel">
+                    <label class="ActivityLabel col-container">
                         <input class="Activity item" id="TuesdayActivity1" name="TuesdayActivity1">
                         <input type="number" min="0" max="10" step="0.1" class="Duration item" id="TuesdayDuration1"
                                name="TuesdayDuration1">
-                        <button type="button" class="btn btn-light btn-sm" onclick=""
-                                style="margin-left: 4%; margin-bottom: 0.5%;">
-                            X
-                        </button>
                     </label>
                 </div>
             </div>
@@ -130,26 +110,16 @@
         <label class="pWeekday">Mittwoch</label><br><br>
         <div style="display: initial" id="wednesdayHide" class="DisplayDiv">
 
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-11">
-                        Tätigkeit
-                    </div>
-                    <div class="col-1">
-                        Dauer
-                    </div>
-                </div>
+            <div class="col-container">
+                <div class="col-dayHeader">Tätigkeit</div>
+                <div class="col-dayHeader">Dauer</div>
             </div>
             <div id="activityContainerWednesday">
                 <div>
-                    <label class="ActivityLabel">
+                    <label class="ActivityLabel col-container">
                         <input class="Activity item" id="WednesdayActivity1" name="WednesdayActivity1">
                         <input type="number" min="0" max="10" step="0.1" class="Duration item" id="WednesdayDuration1"
                                name="WednesdayDuration1">
-                        <button type="button" class="btn btn-light btn-sm" onclick=""
-                                style="margin-left: 4%; margin-bottom: 0.5%;">
-                            X
-                        </button>
                     </label>
                 </div>
             </div>
@@ -163,26 +133,17 @@
         <label class="pWeekday">Donnerstag</label><br><br>
         <div style="display: initial" id="thursdayHide" class="DisplayDiv">
 
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-11">
-                        Tätigkeit
-                    </div>
-                    <div class="col-1">
-                        Dauer
-                    </div>
-                </div>
+            <div class="col-container">
+                <div class="col-dayHeader">Tätigkeit</div>
+                <div class="col-dayHeader">Dauer</div>
             </div>
+            
             <div id="activityContainerThursday">
                 <div>
-                    <label class="ActivityLabel">
+                    <label class="ActivityLabel col-container">
                         <input class="Activity item" id="ThursdayActivity1" name="ThursdayActivity1">
                         <input type="number" min="0" max="10" step="0.1" class="Duration item" id="ThursdayDuration1"
                                name="ThursdayDuration1">
-                        <button type="button" class="btn btn-light btn-sm" onclick=""
-                                style="margin-left: 4%; margin-bottom: 0.5%;">
-                            X
-                        </button>
                     </label>
                 </div>
             </div>
@@ -190,31 +151,23 @@
         </div>
     </div>
     <div class="col-11 col-lg-5 Wochentag">
-        <button type="button" id="fridayHideBtn" onclick="hide('fridayHide', 'fridayHideBtn')" class="btn btn-dark btn-sm toggleButton">v</button>
+        <button type="button" id="fridayHideBtn" onclick="hide('fridayHide', 'fridayHideBtn')"
+                class="btn btn-dark btn-sm toggleButton">v
+        </button>
         <label class="pWeekday">Freitag</label><br><br>
         <div style="display: initial" id="fridayHide" class="DisplayDiv">
 
-            <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-11">
-                        Tätigkeit
-                    </div>
-                    <div class="col-1">
-                        Dauer
-                    </div>
-                </div>
+            <div class="col-container">
+                <div class="col-dayHeader">Tätigkeit</div>
+                <div class="col-dayHeader">Dauer</div>
             </div>
             <!--activity field -->
             <div id="activityContainerFriday">
                 <div>
-                    <label class="ActivityLabel">
+                    <label class="ActivityLabel col-container">
                         <input class="Activity item" id="FridayActivity1" name="FridayActivity1">
                         <input type="number" min="0" max="10" step="0.1" class="Duration item" id="FridayDuration1"
                                name="FridayDuration1">
-                        <button type="button" class="btn btn-light btn-sm"
-                                style="margin-left: 4%; margin-bottom: 0.5%;">
-                            X
-                        </button>
                     </label>
                 </div>
             </div>
